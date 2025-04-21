@@ -2,7 +2,7 @@
 
 1. ¿Qué comando usarías para crear un directorio?
 
-- [ ] mkdir app
+- [x] mkdir app
 - [ ] ls
 - [ ] app
 - [ ] cd app
@@ -11,7 +11,7 @@
 
 - [ ] cat animales cosas > salida
 - [ ] animales > cosas > salida
-- [ ] cat animales cosas | sort > salida
+- [x] cat animales cosas | sort > salida
 - [ ] cat cosas animales > sort > salida
 
 3. Para __________ un repo local a GitHub debemos ____________ usando usuario y _________.
@@ -20,12 +20,14 @@
 
 4. ¿Cómo hacer para iniciar un repo local con un README.md vacío en la CLI y hacer el primer commit?
 
+```bash
 mkdir repo
 cd repo
 git init
 touch README.md
 git add .
 git commit -m "primer commit"
+```
 
 5. Considere el siguiente código de HTML.
 ```html
